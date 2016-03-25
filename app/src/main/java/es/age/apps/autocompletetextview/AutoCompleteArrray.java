@@ -23,7 +23,7 @@ public class AutoCompleteArrray extends AppCompatActivity {
         setContentView(R.layout.autocomplete_layout);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_singlechoice, brands);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, brands);
         //Find the AutoCompleteTextView control
         AutoCompleteTextView acmpTxt = (AutoCompleteTextView) findViewById(R.id.autocmp);
         //Set the number of characters the user must type before the drop down list is shown

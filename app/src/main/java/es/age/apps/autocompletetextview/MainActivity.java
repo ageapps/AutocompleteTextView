@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //SetUp ListView
         ListView list = (ListView) findViewById(R.id.list_main);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.activity_list_item,android.R.id.text1, names);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,android.R.id.text1, names);
         list.setAdapter(adapter);
         //SetUp ListView OnClick Listener
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
