@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="es.age.apps.autocompletetextview.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -17,6 +17,26 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".AutoCompleteXML"
+            android:label="@string/title_activity_auto_complete_xml"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AutoCompleteArrray"
+            android:label="@string/title_activity_auto_complete_array"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AutoCompleteCustomItem"
+            android:label="@string/title_activity_auto_complete_item"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AutoCompleteCustomAdapter"
+            android:label="@string/title_activity_auto_complete_adapt"
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
 

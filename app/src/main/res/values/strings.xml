@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AutocompleteTextView</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_auto_complete_xml">AutoComplete XML</string>
+    <string name="title_activity_auto_complete_array">AutoComplete Array</string>
+    <string name="title_activity_auto_complete_item">AutoComplete Custom Item</string>
+    <string name="title_activity_auto_complete_adapt">AutoComplete Custom Adapter</string>
 </resources>

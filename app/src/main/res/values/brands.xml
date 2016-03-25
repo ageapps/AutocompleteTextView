@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="brands">
+        <item>Samsung</item>
+        <item>Sony</item>
+        <item>Google</item>
+        <item>Huawei</item>
+        <item>LG</item>
+        <item>Motorola</item>
+        <item>HTC</item>
+        <item>Xiaomi</item>
+        <item>Apple</item>
+        <item>Alcatel</item>
+        <item>BQ</item>
+        <item>Nokia</item>
+    </string-array>
+</resources>
